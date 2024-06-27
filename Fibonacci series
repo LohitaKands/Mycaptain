@@ -1,0 +1,10 @@
+def fibonacci(n):
+    num1, num2 = 0, 1
+    count = 1
+    while count <= n:
+        print(num2, end=" ")
+        count += 1
+        num1, num2 = num2, num1 + num2
+
+n = 10  # Change this to the desired number of terms
+fibonacci(n)
